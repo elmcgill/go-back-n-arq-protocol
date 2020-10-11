@@ -11,6 +11,7 @@ characters per packet, NOTE: the total number of packets sent may be higher sinc
 corrupted by IntroduceError() and thus need to be redelivered).
 * Use function “buildPacket” that found in “utilities.c” to build a packet of the following
 format:
+
 Packet Type | Packet Number | Data | CRC
 ----------- | ------------- | ---- | ---
 1 byte | 1 byte | 2 bytes | 2 bytes
